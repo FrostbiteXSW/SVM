@@ -1,10 +1,11 @@
-import abc
 import random
+from time import time
+
 import matplotlib.pyplot as plt
 import numpy as np
-from time import time
-from support_vector_classifier import SupportVectorClassifier
+
 from polynomial import PolynomialKernel
+from support_vector_classifier import SupportVectorClassifier
 
 random.seed(time())
 
